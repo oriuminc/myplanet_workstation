@@ -1,0 +1,17 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    dmg (1.0.0)
+
+GIT
+  remote: https://github.com/pivotal/pivotal_workstation.git
+  ref: master
+  sha: 4240a44844a87d4dd691b378b85c1fd102481b72
+  specs:
+    pivotal_workstation (1.0.0)
+      dmg (>= 0.0.0)
+
+DEPENDENCIES
+  dmg (>= 0)
+  pivotal_workstation (>= 0)
+
