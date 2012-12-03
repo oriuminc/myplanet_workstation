@@ -1,5 +1,6 @@
 cookbook_paths:
-- /Users/homebase/patcon_workstation/cookbooks
+- cookbooks
+- cookbooks-override
 recipes:
 - pivotal_workstation::activemq
 - pivotal_workstation::bash_path_order
@@ -26,8 +27,6 @@ recipes:
 - pivotal_workstation::skype
 - pivotal_workstation::unix_essentials
 - pivotal_workstation::user_owns_usr_local
-- pivotal_workstation::vim
+- myplanet_workstation::lastpass
 - pivotal_workstation::virtualbox
 - pivotal_workstation::workspace_directory
-- pivotal_workstation::rvm
-- pivotal_workstation::rbenv
