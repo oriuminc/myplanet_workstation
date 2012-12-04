@@ -30,5 +30,6 @@ recipes:
 - pivotal_workstation::virtualbox
 - pivotal_workstation::workspace_directory
 - myplanet_workstation::lastpass
+- myplanet_workstation::totalterminal
 - myplanet_workstation::appcleaner
 - myplanet_workstation::misc_tools
