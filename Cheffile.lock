@@ -4,19 +4,20 @@ SITE
     dmg (1.0.0)
 
 GIT
+  remote: https://github.com/myplanet-experimental/pivotal_workstation.git
+  ref: leverage-homebrew-cookbook
+  sha: 3a18df95e8add34f84c07ff3eaf8ea996348f42a
+  specs:
+    pivotal_workstation (1.0.0)
+      dmg (>= 0.0.0)
+      homebrew (>= 0.0.0)
+
+GIT
   remote: https://github.com/patcon/chef-homebrew.git
   ref: detect-sudo-user
   sha: 13fc49e6936068fb6600b3f67d521acb1c9a69f3
   specs:
     homebrew (1.2.0)
-
-GIT
-  remote: https://github.com/pivotal/pivotal_workstation.git
-  ref: master
-  sha: 4240a44844a87d4dd691b378b85c1fd102481b72
-  specs:
-    pivotal_workstation (1.0.0)
-      dmg (>= 0.0.0)
 
 DEPENDENCIES
   dmg (>= 0)

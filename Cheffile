@@ -8,8 +8,8 @@ cookbook 'homebrew',
   :git => 'https://github.com/patcon/chef-homebrew.git',
   :ref => 'detect-sudo-user'
 cookbook 'pivotal_workstation',
-  :git => 'https://github.com/pivotal/pivotal_workstation.git',
-  :ref => 'master'
+  :git => 'https://github.com/myplanet-experimental/pivotal_workstation.git',
+  :ref => 'leverage-homebrew-cookbook'
 
 # cookbook 'apache2', '>= 1.0.0'
 
