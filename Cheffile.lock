@@ -2,6 +2,7 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     dmg (1.0.0)
+    zip_app (0.2.2)
 
 GIT
   remote: https://github.com/myplanet-experimental/pivotal_workstation.git
@@ -23,4 +24,5 @@ DEPENDENCIES
   dmg (>= 0)
   homebrew (>= 0)
   pivotal_workstation (>= 0)
+  zip_app (>= 0)
 
