@@ -34,3 +34,4 @@ recipes:
 - myplanet_workstation::grooveshark
 - myplanet_workstation::appcleaner
 - myplanet_workstation::misc_tools
+- myplanet_workstation::skitch
