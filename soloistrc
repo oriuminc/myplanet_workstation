@@ -50,3 +50,4 @@ recipes:
 - myplanet_workstation::evernote
 - myplanet_workstation::googledrive
 - myplanet_workstation::unrarx
+- myplanet_workstation::rightzoom
