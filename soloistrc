@@ -40,3 +40,8 @@ recipes:
 - myplanet_workstation::ireadfast
 - myplanet_workstation::calibre
 - myplanet_workstation::caffeine
+- myplanet_workstation::textwrangler
+- myplanet_workstation::sequelpro
+- myplanet_workstation::nvALT
+- myplanet_workstation::kindle
+- myplanet_workstation::flux
