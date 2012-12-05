@@ -37,3 +37,6 @@ recipes:
 - myplanet_workstation::skitch
 - myplanet_workstation::launchy
 - myplanet_workstation::grandperspective
+- myplanet_workstation::ireadfast
+- myplanet_workstation::calibre
+- myplanet_workstation::caffeine
