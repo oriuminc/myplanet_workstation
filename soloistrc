@@ -29,13 +29,13 @@ recipes:
 - pivotal_workstation::user_owns_usr_local
 - pivotal_workstation::virtualbox
 - pivotal_workstation::workspace_directory
+- pivotal_workstation::alfred
 - myplanet_workstation::lastpass
 - myplanet_workstation::totalterminal
 - myplanet_workstation::grooveshark
 - myplanet_workstation::appcleaner
 - myplanet_workstation::misc_tools
 - myplanet_workstation::skitch
-- myplanet_workstation::launchy
 - myplanet_workstation::grandperspective
 - myplanet_workstation::ireadfast
 - myplanet_workstation::calibre
