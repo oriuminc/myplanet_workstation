@@ -45,3 +45,8 @@ recipes:
 - myplanet_workstation::nvALT
 - myplanet_workstation::kindle
 - myplanet_workstation::flux
+- myplanet_workstation::clipmenu
+- myplanet_workstation::coconutbattery
+- myplanet_workstation::evernote
+- myplanet_workstation::googledrive
+- myplanet_workstation::unrarx
