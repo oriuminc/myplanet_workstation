@@ -60,7 +60,7 @@ Reformatting Strategy".
 
 ### Recommended Reformatting Strategy
 
-- Restart OSX and hold option key with the USB key inserted, Choose ______
+- Restart OSX and hold option key with the USB boot key inserted, Choose ______
 - Start disk util
 - Open "Partition" tab on main drive, and click "+" to add a new partition.
 - Drag the slider until its just a little larger than the current required space
@@ -72,7 +72,8 @@ Reformatting Strategy".
 ### Getting the Kickstart Files
 
 Specific version of any of these aren't strictly required, but they're
-what has already been tested.
+what has already been tested. Make sure you have these files before
+wiping any data, just so you're covered.
 
 - Mountain Lion boot USB
   - Download Mountain Lion from App Store
