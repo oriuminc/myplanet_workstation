@@ -1,7 +1,24 @@
-How To
-======
+Myplanet Workstation
+====================
 
-This is in ultra-super-mega-ultra draft form right now.
+Because bringing your developer workstation back from oblivion with a
+measly couple of keystrokes feel as good as punching all the Disney
+villians in the face at once.
+
+This is *heavily* built off of Pivotal Labs'
+[`pivotal_workstation`](https://github.com/pivotal/pivotal_workstation)
+project, with special thanks to:
+
+- [@mkocher](https://github.com/mkocher) (Matthew Kocher)
+- [@ohrite](https://github.com/ohrite) (Doc Riezel)
+- [@briancunnie](https://github.com/briancunnie) (Brian Cunnie)
+
+How To
+------
+
+This is in ultra-super-mega-ultra draft form right now. I'll be
+reformatting my workstation once a week, following my own instructions
+to a 'T', so hopefully this will be battle-tested in a week or so.
 
 ### From A Fresh Laptop
 
