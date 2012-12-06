@@ -11,7 +11,7 @@ project, with special thanks to:
 
 - [@mkocher](https://github.com/mkocher) (Matthew Kocher)
 - [@ohrite](https://github.com/ohrite) (Doc Riezel)
-- [@briancunnie](https://github.com/briancunnie) (Brian Cunnie)
+- [@cunnie](https://github.com/cunnie) (Brian Cunnie)
 
 How To
 ------
