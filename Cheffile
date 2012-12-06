@@ -10,4 +10,7 @@ cookbook 'homebrew',
 cookbook 'pivotal_workstation',
   :git => 'https://github.com/myplanet-experimental/pivotal_workstation.git',
   :ref => 'leverage-homebrew-cookbook'
+cookbook 'rvm',
+  :git => 'https://github.com/fnichol/chef-rvm.git',
+  :ref => 'master'
 cookbook 'zip_app'

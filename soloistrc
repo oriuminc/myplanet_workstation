@@ -1,8 +1,16 @@
 cookbook_paths:
 - cookbooks
 - cookbooks-override
+node_attributes:
+  rvm:
+    user_installs:
+    -
+      user: homebase
+      version: 1.17.0
+      branch: none
 recipes:
 - homebrew
+- rvm::user_install
 - pivotal_workstation::activemq
 - pivotal_workstation::bash_path_order
 - pivotal_workstation::bash_profile-no_sudo_gem_install

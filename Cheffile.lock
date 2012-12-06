@@ -5,6 +5,13 @@ SITE
     zip_app (0.2.2)
 
 GIT
+  remote: https://github.com/fnichol/chef-rvm.git
+  ref: master
+  sha: dcdcc93847b932fbca67bf1f89a732556f359fc7
+  specs:
+    rvm (0.9.1)
+
+GIT
   remote: https://github.com/myplanet-experimental/pivotal_workstation.git
   ref: leverage-homebrew-cookbook
   sha: 3a18df95e8add34f84c07ff3eaf8ea996348f42a
@@ -24,5 +31,6 @@ DEPENDENCIES
   dmg (>= 0)
   homebrew (>= 0)
   pivotal_workstation (>= 0)
+  rvm (>= 0)
   zip_app (>= 0)
 

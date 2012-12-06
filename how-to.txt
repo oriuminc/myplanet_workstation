@@ -4,7 +4,7 @@
     cp /Applications/Install\ OS\ X\ Mountain\ Lion.app/Contents/SharedSupport/InstallESD.dmg ~/Desktop
 
 - Open Disk Util and "Restore" USB image with that DMG file. You've got your boot disk
-- Restart OSX and hold option key with the USB key inserted, Choose ________
+- Restart OSX and hold option key with the USB key inserted, Choose ______
 - Start disk util
 - Open "Partition" tab on main drive, and click "+" to add a new partition.
 - Drag the slider until its just a little larger than the current required space
@@ -26,5 +26,11 @@
 - Run run-soloist.sh again
 
 - daw.apple.com/downloads
-Download Xcode 4.5.1 for Mountain Lion
+Download Xcode 4.5.2
+- Open the DMG and copy the included app to a permanent place
+    cp -r /Volumes/Xcode/Xcode.app /Applications
+- Tell OSX where xcode lives:
+    sudo xcode-select -switch /Applications/Xcode.app
 - solowizard.com
+- installed `rvm pkg install autoconf` to get rubies compiling.
+- rvm install ruby-1.9.3-p194
