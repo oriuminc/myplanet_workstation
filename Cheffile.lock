@@ -21,6 +21,13 @@ GIT
       homebrew (>= 0.0.0)
 
 GIT
+  remote: https://github.com/myplanetdigital/chef-ark.git
+  ref: cherrypick-dirs
+  sha: 996d46161bb00edbd0c3e3ad3843422f11556a36
+  specs:
+    ark (0.0.16)
+
+GIT
   remote: https://github.com/patcon/chef-homebrew.git
   ref: detect-sudo-user
   sha: 13fc49e6936068fb6600b3f67d521acb1c9a69f3
@@ -28,6 +35,7 @@ GIT
     homebrew (1.2.0)
 
 DEPENDENCIES
+  ark (>= 0)
   dmg (>= 0)
   homebrew (>= 0)
   pivotal_workstation (>= 0)

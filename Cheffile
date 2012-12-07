@@ -3,6 +3,10 @@
 
 site 'http://community.opscode.com/api/v1'
 
+# Pending PR: https://github.com/opscode-cookbooks/ark/pull/5
+cookbook 'ark',
+  :git => 'https://github.com/myplanetdigital/chef-ark.git',
+  :ref => 'cherrypick-dirs'
 cookbook 'dmg'
 cookbook 'homebrew',
   :git => 'https://github.com/patcon/chef-homebrew.git',

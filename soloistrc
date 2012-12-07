@@ -60,3 +60,4 @@ recipes:
 - myplanet_workstation::unrarx
 - myplanet_workstation::rightzoom
 - myplanet_workstation::janus
+- myplanet_workstation::limechat
