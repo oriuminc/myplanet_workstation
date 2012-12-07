@@ -2,6 +2,7 @@ SITE
   remote: http://community.opscode.com/api/v1
   specs:
     dmg (1.0.0)
+    homesick (0.3.2)
     zip_app (0.2.2)
 
 GIT
@@ -38,6 +39,7 @@ DEPENDENCIES
   ark (>= 0)
   dmg (>= 0)
   homebrew (>= 0)
+  homesick (>= 0)
   pivotal_workstation (>= 0)
   rvm (>= 0)
   zip_app (>= 0)

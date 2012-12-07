@@ -61,3 +61,4 @@ recipes:
 - myplanet_workstation::rightzoom
 - myplanet_workstation::janus
 - myplanet_workstation::limechat
+- myplanet_workstation::homesick_castles

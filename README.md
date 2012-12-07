@@ -44,6 +44,11 @@ Reformatting Strategy".
 
 - Until I get this working on the fly, open `soloistrc` and swap the
   value `homebase` for your own system username.
+- You'll also want to comment out the recipe
+`myplanet_workstation::homesick_castles`, as it tries to load my public
+and private dotfiles, and will fail without my SSH keys.
+- Speaking of which, now is a great time to install your SSH keys that
+you saved from your previous OSX install.
 - `cd` into the unzipped project folder and run:
 
         librarian-chef install
@@ -75,6 +80,7 @@ Specific version of any of these aren't strictly required, but they're
 what has already been tested. Make sure you have these files before
 wiping any data, just so you're covered.
 
+- *Save your SSH keys!* This is one of the few unique files you'll need!
 - Mountain Lion boot USB
   - Download Mountain Lion from App Store
   - Copy the boot disk file to the desktop
