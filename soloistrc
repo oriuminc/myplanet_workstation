@@ -2,6 +2,8 @@ cookbook_paths:
 - cookbooks
 - cookbooks-override
 node_attributes:
+  terminal:
+    color_scheme: IR_Black
   rvm:
     user_installs:
     -
@@ -62,3 +64,4 @@ recipes:
 - myplanet_workstation::janus
 - myplanet_workstation::limechat
 - myplanet_workstation::homesick_castles
+- myplanet_workstation::terminal-ir-black-theme
