@@ -1,8 +1,12 @@
 include_recipe "homebrew"
 
 %w{
-  hub
+  colordiff
+  curl
+  git-extras
+  git-flow
   legit
+  hub
 }.each do |pkg|
   package pkg
 end
