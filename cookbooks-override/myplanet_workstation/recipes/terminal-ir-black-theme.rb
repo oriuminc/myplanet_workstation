@@ -1,5 +1,3 @@
-include_recipe "ark"
-
 ark "IR_Black" do
   url "http://blog.toddwerth.com/entry_files/13/IR_Black.terminal.zip"
   path Chef::Config['file_cache_path']
