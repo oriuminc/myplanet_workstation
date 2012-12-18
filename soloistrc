@@ -65,3 +65,4 @@ recipes:
 - myplanet_workstation::limechat
 - myplanet_workstation::homesick_castles
 - myplanet_workstation::terminal-ir-black-theme
+- myplanet_workstation::joinme
