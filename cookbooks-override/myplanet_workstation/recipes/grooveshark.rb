@@ -11,3 +11,9 @@ execute "'/Applications/Utilities/Adobe AIR Application Installer.app/Contents/M
   not_if { File.exists? "/Applications/Grooveshark.app" }
 end
 
+zip_app_package "GSDesktopHelper" do
+  source "http://preview.grooveshark.com/GSDesktopHelper_Mac.zip"
+  checksum "d60e508420af435382943e171a34a9d59e461d11de95b178fd1c8b157a0e868e"
+end
+# TODO: Add loginItem?
+# TODO: Set "Enable Global Keyboard Shortcuts" in Grooveshark's options.
