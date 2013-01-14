@@ -49,6 +49,10 @@ Reformatting Strategy".
 and private dotfiles, and will fail without my SSH keys.
 - Speaking of which, now is a great time to install your SSH keys that
 you saved from your previous OSX install.
+- Create `/usr/local` for homebrew cookbook:
+
+        sudo mkdir /usr/local
+
 - `cd` into the unzipped project folder and run:
 
         librarian-chef install
