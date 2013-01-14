@@ -28,14 +28,16 @@ Reformatting Strategy".
 - Install Adobe Air, as can't be installed automatically:
   - https://twitter.com/patconnolly/status/276043932905918465
   - http://get.adobe.com/air/
-- Mount the Xcode DMG and copy the included app to a permanent place
+- Mount the Xcode DMG and copy the included app to a permanent place (might not to drag and drop?).
 
-        cp -r /Volumes/Xcode/Xcode.app /Applications
+        [sudo] cp -r /Volumes/Xcode/Xcode.app /Applications
 
 - Tell OSX where xcode lives:
 
         sudo xcode-select -switch /Applications/Xcode.app
 
+- Open Xcode and run through install dialogs.
+- Install CLI tools via `Xcode > Preferences... > Downloads > Command Line Tools`. 
 - Download and unzip `myplanet_workstation` project:
   https://github.com/myplanetdigital/myplanet_workstation/zipball/master
 - Install requirements of project:
