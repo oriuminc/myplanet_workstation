@@ -44,8 +44,6 @@ Reformatting Strategy".
 
         sudo gem install soloist librarian
 
-- Until I get this working on the fly, open `soloistrc` and swap the
-  value `homebase` for your own system username.
 - You'll also want to comment out the recipe
 `myplanet_workstation::homesick_castles`, as it tries to load my public
 and private dotfiles, and will fail without my SSH keys.
