@@ -30,6 +30,8 @@ recipes:
 - pivotal_workstation::virtualbox
 - pivotal_workstation::workspace_directory
 - pivotal_workstation::alfred
+- pivotal_workstation::libreoffice
+- pivotal_workstation::sequelpro
 - myplanet_workstation::lastpass
 - myplanet_workstation::totalterminal
 - myplanet_workstation::grooveshark
@@ -41,13 +43,11 @@ recipes:
 - myplanet_workstation::calibre
 - myplanet_workstation::caffeine
 - myplanet_workstation::textwrangler
-- myplanet_workstation::sequelpro
 - myplanet_workstation::nvALT
 - myplanet_workstation::kindle
 - myplanet_workstation::flux
 - myplanet_workstation::clipmenu
 - myplanet_workstation::coconutbattery
-- myplanet_workstation::evernote
 - myplanet_workstation::googledrive
 - myplanet_workstation::unrarx
 - myplanet_workstation::rightzoom
@@ -56,5 +56,4 @@ recipes:
 - myplanet_workstation::homesick_castles
 - myplanet_workstation::terminal-ir-black-theme
 - myplanet_workstation::joinme
-- myplanet_workstation::libreoffice
 - myplanet_workstation::rescuetime
