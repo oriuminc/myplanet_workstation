@@ -7,14 +7,11 @@ node_attributes:
 recipes:
 - homebrew
 - pivotal_workstation::activemq
-- pivotal_workstation::bash_path_order
-- pivotal_workstation::bash_profile-no_sudo_gem_install
 - pivotal_workstation::chrome
 - pivotal_workstation::create_var_chef_cache
 - pivotal_workstation::dropbox
 - pivotal_workstation::evernote
 - pivotal_workstation::firefox
-- pivotal_workstation::gem_no_rdoc_no_ri
 - pivotal_workstation::git
 - pivotal_workstation::github_for_mac
 - pivotal_workstation::git_config_global_defaults

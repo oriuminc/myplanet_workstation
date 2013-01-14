@@ -1,14 +1,14 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    dmg (1.0.0)
+    dmg (1.1.0)
     homesick (0.3.2)
     zip_app (0.2.2)
 
 GIT
   remote: https://github.com/myplanet-experimental/pivotal_workstation.git
   ref: leverage-homebrew-cookbook
-  sha: 3a18df95e8add34f84c07ff3eaf8ea996348f42a
+  sha: 6a27a229ec1bac483eb14a286ac0f072fe1049d1
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
