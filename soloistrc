@@ -32,6 +32,7 @@ recipes:
 - pivotal_workstation::alfred
 - pivotal_workstation::libreoffice
 - pivotal_workstation::sequelpro
+- pivotal_workstation::menumeters
 - myplanet_workstation::lastpass
 - myplanet_workstation::totalterminal
 - myplanet_workstation::grooveshark
